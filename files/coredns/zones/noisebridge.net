@@ -234,7 +234,7 @@ upotagma        IN      AAAA    2604:a880:1:20:0:0:c3:a001
 ; * Use the provided credentials to self-provision a letsEncrypt cert.
 ;
 ; Note: We currently use auth.acme-dns.io but we can also self-host this service.
-
+_acme-challenge             IN      CNAME   f025e3fe-fbc8-4d3d-8d4f-cb8a2ac38f5e.auth.acme-dns.io.
 _acme-challenge.colossus    IN      CNAME   16c8a8b7-44cc-4c18-8c43-0ae57d21b118.auth.acme-dns.io.
 _acme-challenge.ducky       IN      CNAME   331d1498-d188-4fea-935c-7b2a225f684a.auth.acme-dns.io.
 _acme-challenge.garden      IN      CNAME   89d749fd-a9c9-40f7-94e1-2c3cb32ec5c2.auth.acme-dns.io.
